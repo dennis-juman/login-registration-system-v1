@@ -1,0 +1,81 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+
+    /* IMPORT FONTS */
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+
+    /* MAKE BACKGROUND RESPONSIVE */
+    /* /* background-image: url("../resources/wallpaper/amira_wallpaper.png"); */
+    height: 100%;
+    background-color: black; /* FALLBACK COLOR */
+
+    /* DISABLE HORIZONTAL SCROLL BAR WHEN WINDOW SHRINKS */
+    overflow-x: hidden; 
+    overflow: hidden;
+}
+
+
+
+button:focus {
+    outline:0;
+}
+
+
+img{
+    width: 50%;
+    height:auto;
+    border-radius: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:30px;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    font-weight: lighter;
+    color:white;
+}
+
+
+#button{
+    position:absolute;
+    left:50%;
+    margin-left:-300px;
+    top:50%;
+    margin-top:-300px;
+}
+
+
+
+#sign_up_button{
+    display:inline-block;
+    background-color: rgba(0,0,0, 0.4);
+    width:250px;
+    height:250px;
+    border-radius: 60px;
+    background-position: center;
+    background-size: 200px, 200px;
+    background-repeat: no-repeat;
+    border: none;
+    margin:25px;
+}
+
+#sign_in_button{
+    display:inline-block;
+    background-color: rgba(0,0,0, 0.4);
+    width:250px;
+    height:250px;
+    border-radius: 60px;
+    background-position: center;
+    background-size: 200px, 200px;
+    background-repeat: no-repeat;
+    border: none;
+    margin:25px;
+}
+

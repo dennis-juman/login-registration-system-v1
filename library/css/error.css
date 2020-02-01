@@ -1,0 +1,28 @@
+html, body{
+  margin: 0px;
+  padding: 0px;
+
+  /* IMPORT FONTS */
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+
+  /* MAKE BACKGROUND RESPONSIVE */
+  /* /* background-image: url("../resources/wallpaper/amira_wallpaper.png"); */
+  height: 100%;
+  background-color: black; /* FALLBACK COLOR */
+
+  /* DISABLE HORIZONTAL SCROLL BAR WHEN WINDOW SHRINKS */
+  overflow-x: hidden; 
+  overflow-y: hidden; 
+  /* overflow: hidden; */
+}
+
+h1{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  padding: 20px;
+}
